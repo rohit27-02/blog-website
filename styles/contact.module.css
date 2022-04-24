@@ -1,0 +1,45 @@
+.main{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-direction: column;
+background-color:rgb(241, 244, 173);
+min-height: 100vh;
+
+}
+.mb3{
+padding: 15px;
+font-size: large;
+font-weight: bolder;
+
+
+}
+.label{
+    margin: 2px 15px;
+    border: solid black 1px;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: large;
+}
+.submit{
+    border: solid rgb(3, 0, 0) 1px;
+    background-color: aquamarine;
+    padding: 15px 20px;
+    border-radius: 50px;
+    margin: 40px 10em;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.submit:hover{
+    border: solid rgb(3, 0, 0) 1px;
+    background-color: rgb(255, 127, 127);
+    padding: 17px 22px;
+    border-radius: 50px;
+    margin: 40px 10em;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+.text{
+    color: rgb(0, 255, 76);   
+}

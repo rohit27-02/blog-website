@@ -1,6 +1,13 @@
 .main{
     text-align: center;
+    background-color: rgb(229, 239, 169);
+    min-height: 100vh;
+    padding: 0px 4em;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 0px;
 }
-.container{
-    padding: 0px 2em;
+.h1{
+    font-size: 2em;
+    padding-top:20px ;
 }

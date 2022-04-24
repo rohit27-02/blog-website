@@ -7,8 +7,8 @@ const slug = (props) => {
   const router = useRouter();
   return (
     <div className={styles.main}>
-      <h1>{blog && blog.title}</h1>
-      <p className={styles.container}>{blog && blog.content}</p>
+      <div className={styles.h1}>{blog && blog.title}</div>
+      <p >{blog && blog.content}</p>
       </div>
   )
 }
