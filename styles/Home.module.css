@@ -4,11 +4,10 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -113,4 +112,15 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.mainnav ul{
+  display: flex;
+  justify-content: center;
+}
+.mainnav ul li{
+  font-weight: bold;
+  margin: 20px 40px;
+  list-style: none;
+
+  
 }

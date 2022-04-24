@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+.blogItemsh3{
+    cursor: pointer;
+}
+.blogItems{
+    max-width: 35em;
+   
+}
