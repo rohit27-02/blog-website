@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import styles from "../styles/blog.module.css"
 import Link from 'next/link';
 import InfiniteScroll from "react-infinite-scroll-component";
