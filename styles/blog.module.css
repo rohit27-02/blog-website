@@ -22,3 +22,8 @@
      
     }
 }
+@media (max-width: 512px){
+    .main{
+        min-height: 140vh;
+    }
+}

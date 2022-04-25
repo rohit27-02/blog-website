@@ -43,3 +43,8 @@ font-weight: bolder;
 .text{
     color: rgb(0, 255, 76);   
 }
+@media (max-width:512px) {
+    .main{
+        height:145vh;
+    }
+}

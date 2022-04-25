@@ -38,17 +38,18 @@
     margin-top: 20px ;
     line-height: 1.15;
     font-size: 3rem;
-   
-  }
-
 }
+.container{
+  height: 145vh;
+}
+}
+
 .mainnav ul{
   display: flex;
   justify-content: center;
   margin: 0%;
   padding: 20px;
   
-
 }
 .mainnav ul li{
   font-weight: bold;
