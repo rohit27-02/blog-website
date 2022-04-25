@@ -2,6 +2,14 @@
     height: 100vh;
     text-align: center;
     margin: auto;
-    padding: 2em;
+    padding: 1em 7em;
     background-color: rgb(178, 158, 250);
+    font-size: large;
+    line-height: 2em;
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .main{
+        padding: 10px 3em;
+    }
 }
