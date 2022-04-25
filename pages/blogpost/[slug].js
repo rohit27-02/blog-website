@@ -1,14 +1,11 @@
-import React,{useState,useEffect} from 'react'
-import {useRouter} from "next/router"
+
 import styles from "../../styles/blogpost.module.css"
 
 const slug = (props) => {
-  const [blog, setBlog] = useState(props.myblog);
-  const router = useRouter();
   return (
     <div className={styles.main}>
-      <div className={styles.h1}>{blog && blog.title}</div>
-      <p >{blog && blog.content}</p>
+      <div className={styles.h1}>{props.myblog && props.myblog.title}</div>
+      <p >{props.myblog && props.myblog.content}</p>
       </div>
   )
 }

@@ -57,7 +57,7 @@ const Contact = () => {
         <div className={styles.mb3}>
           <label  htmlFor="email" >Email address</label>
           <input name="email" className={styles.label} type="email" onChange={handleChange} value={email}  id="email" />
-            <div className={styles.text} id="emailHelp" >We'll never share your email with anyone else.</div>
+            <div className={styles.text} id="emailHelp" >We will never share your email with anyone else.</div>
         </div>
         <div className={styles.mb3}>
           <label  htmlFor="phone" >Phone No.</label>
